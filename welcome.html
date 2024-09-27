@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Management System</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Resume Management System</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Register</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Welcome Section -->
+    <header class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <img src="/pexels-tima-miroshnichenko-5717260.jpg" class="img-fluid rounded mb-4" alt="Resume Management">
+            <h1>Welcome to the Resume Management System</h1>
+            <p class="lead">Effortlessly manage and organize resumes, search for candidates, and streamline your hiring process.</p>
+            <a href="#" class="btn btn-lg btn-light">Get Started</a>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Our Features</h2>
+            <div class="row text-center">
+                <div class="col-lg-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="/pexels-ketut-subiyanto-4623309.jpg" class="card-img-top" alt="Easy Resume Management">
+                        <div class="card-body">
+                            <h5 class="card-title mt-3">Easy Resume Management</h5>
+                            <p class="card-text">Upload, manage, and categorize resumes for seamless hiring.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="/pexels-ketut-subiyanto-4623322.jpg" class="card-img-top" alt="Advanced Search">
+                        <div class="card-body">
+                            <h5 class="card-title mt-3">Advanced Search</h5>
+                            <p class="card-text">Search candidates based on skills, experience, and other criteria.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="/pexels-thirdman-5256526.jpg" class="card-img-top" alt="Efficient Workflow">
+                        <div class="card-body">
+                            <h5 class="card-title mt-3">Efficient Workflow</h5>
+                            <p class="card-text">Streamline your hiring process with fast and intuitive tools.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">What Our Users Say</h2>
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="/pexels-tima-miroshnichenko-5717260.jpg" class="card-img-top" alt="User Testimonial">
+                        <div class="card-body">
+                            <p class="card-text">"This platform has simplified our resume management process immensely. It's user-friendly and powerful!"</p>
+                            <h6 class="card-subtitle text-muted">- Sarah, HR Manager</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="/pexels-mikhail-nilov-6930549.jpg" class="card-img-top" alt="User Testimonial">
+                        <div class="card-body">
+                            <p class="card-text">"With the advanced search feature, we were able to quickly find the perfect candidate. Highly recommended!"</p>
+                            <h6 class="card-subtitle text-muted">- John, Recruitment Specialist</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="/pexels-thirdman-5256526.jpg" class="card-img-top" alt="User Testimonial">
+                        <div class="card-body">
+                            <p class="card-text">"The efficiency of this tool has saved us hours in our recruitment process. It's a game changer."</p>
+                            <h6 class="card-subtitle text-muted">- Emily, Talent Acquisition Lead</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+            <div class="accordion" id="faqAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            How do I upload resumes to the system?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            To upload resumes, simply click on the "Upload" button in your dashboard, select the file, and choose the appropriate category.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Is the data secure in the system?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Yes, we use advanced encryption protocols and multi-factor authentication to ensure the security of your data.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Can I search for specific skills in resumes?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Yes, our advanced search tool allows you to search for resumes by specific skills, experience, location, and more.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Client Logos Section -->
+    <section class="bg-light py-5">
+        <div class="container text-center">
+            <h2 class="mb-4">Trusted by Leading Companies</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-2 col-md-3 col-4 mb-4">
+                    <img src="https://via.placeholder.com/150x50" class="img-fluid" alt="Company Logo 1">
+                </div>
+                <div class="col-lg-2 col-md-3 col-4 mb-4">
+                    <img src="https://via.placeholder.com/150x50" class="img-fluid" alt="Company Logo 2">
+                </div>
+                <div class="col-lg-2 col-md-3 col-4 mb-4">
+                    <img src="https://via.placeholder.com/150x50" class="img-fluid" alt="Company Logo 3">
+                </div>
+                <div class="col-lg-2 col-md-3 col-4 mb-4">
+                    <img src="https://via.placeholder.com/150x50" class="img-fluid" alt="Company Logo 4">
+                </div>
+                <div class="col-lg-2 col-md-3 col-4 mb-4">
+                    <img src="https://via.placeholder.com/150x50" class="img-fluid" alt="Company Logo 5">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center py-3">
+        <p>&copy; 2024 Resume Management System. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
